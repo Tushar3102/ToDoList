@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.header{
+    position: absolute;
+    width: 380px;
+    height: 40px;
+    background-color: #af7eea;
+    left: 38%;
+    top: 30%;
+}
+
+.header input{
+    width: 375px;
+    height: 39px;
+    background-color: #af7eea;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.header input:focus{
+    border: none;
+    outline: none;
+
+}
+.header input::placeholder{
+    color: white;
+}
+.task-area{
+    position: absolute;
+    width: 380px;
+    height: auto;
+    background-color: whitesmoke;
+    /* border: 1px solid red   ; */
+    left: 38%;
+    top: 40%;
+    margin-top: 1%;
+}
+
+.task-area ul li{
+    list-style-type: none;;
+    font-weight: bold;
+    color: #af7eea;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-bottom: 5%   ;
+}
+
+.btn-delete{
+    float: right;
+    margin-right: 4%;
+    cursor: pointer;
+}
+
+.btn-edit{
+    float: right;
+    margin-right: 4%;
+    cursor: pointer;
+}
+.task{
+    cursor: pointer;
+    user-select: none;    
+    width: auto;
+}
+
+#btnAdd{
+ position: absolute;
+ width: 150px;
+ height: 40px;
+ color: white;
+border: none;
+background-color: #af7eea;
+font-weight: bold;
+font-size: 20px;
+border-radius: 30px;
+cursor: pointer;
+top: 90%;
+left: 29%;
+}
+
+.strike{
+  text-decoration: line-through;
+}
+
+.task-area span{
+    word-wrap: break-word;
+}
